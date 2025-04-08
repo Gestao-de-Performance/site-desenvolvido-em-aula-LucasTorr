@@ -1,0 +1,53 @@
+:root {
+    --cor-busca: #59130441;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    padding: 1%;
+}
+
+/*Classe genérica para Display Flex*/
+.displayFlex {
+    display: flex;
+}
+
+.gapCabecalhoBotoes {
+    gap: >%;
+}
+
+/*Borda do campo de Busca*/
+.bordaBusca {
+    border: 1px solid var(--cor-busca);
+    padding: 5px;
+}
+
+/*Input de Busca*/
+.inputBusca {
+    border: none;
+    outline: none;
+    color: #59130489;
+}
+
+.inputBusca::placeholder {
+    color: var(--cor-busca);
+}
+/*Fim input de busca no Blog*/
+
+/*Removendo todo o estilo da Tag A*/
+.removeDecoration {
+    text-decoration: none;
+}
+
+/*Removendo a quebra de linha*/
+.quebraDeLinha {
+    white-space: nowrap;
+}
